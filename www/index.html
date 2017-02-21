@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Branigan</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+    <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One|Quicksand">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="branding">
+        <div class="logo-box">
+            <img class="logo" src="img/starslogo.svg" alt="Ten point star logo">
+        </div>
+
+        <div class="title">
+            <h1 class="title-name">John Branigan</h1>
+            <h3 class="title-sub">Information Design and Development</h3>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h4 class="hero-description">Density of 311 Noise Complaints</h4>
+
+        <!-- at laptop or larger screen sizes, an interactive map will be embedded - see js/index.js -->
+        <div id="hero-embed">
+        </div>
+
+        <!-- at smaller screen sizes, lighter weight img are used -->
+        <div class="hero-img">
+            <picture>
+                <source media="(max-width: 500px)" srcset="img/nyc-map-sm.png">
+                <source media="(max-width: 750px)" srcset="img/nyc-map-md.png">
+                <source media="(min-width: 751px)" srcset="img/nyc-map-lg.png">
+                <img src="img/nyc-map-lg.png" alt="NYC 311 map">
+            </picture>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h3 class="project-title">Featured Work</h3>
+
+        <article class="project">
+            <a href="http://nicerweather.com" class="project-screen-link" target="_blank">
+                <img srcset="img/nicerweather-1x.png, img/nicerweather-2x.png 2x" src="img/nicerweather-2x.png" alt="Nicer Weather screen shot" class="project-screen">
+            </a>
+
+            <h2 class="project-name">Nicer Weather</h2>
+
+            <p>
+                <a href="https://github.com/jbranigan/nicer-weather" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+
+        <article class="project">
+            <a href="http://branigan.net/maps/d3-ortho-cities/" class="project-screen-link" target="_blank">
+                <img srcset="img/d3map-1x.png, img/d3map-2x.png 2x" src="img/d3map-2x.png" alt="Global population map rendered in d3.js" class="project-screen">
+            </a>
+
+            <h2 class="project-name">d3.js Population</h2>
+
+            <p>
+                <a href="https://github.com/jbranigan/web-maps" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+
+        <article class="project">
+            <a href="http://branigan.net/maps/projection-overlays/" class="project-screen-link" target="_blank">
+                <img srcset="img/projections-1x.png, img/projections-2x.png 2x" src="img/projections-2x.png" alt="Map projections art" class="project-screen">
+            </a>
+
+            <h2 class="project-name">Projection Art</h2>
+
+            <p>
+                <a href="https://github.com/jbranigan/projection-overlays" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer-left">
+            Made in St. Louis
+        </div>
+
+        <div class="footer-right">
+            <a href="https://github.com/jbranigan" class="contact fontawesome-github-alt"></a>
+            <a href="https://www.linkedin.com/in/john-branigan-34b4a720/" class="contact fontawesome-linkedin"></a>
+            <a href="mailto:john@branigan.net" class="contact fontawesome-envelope"></a>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
