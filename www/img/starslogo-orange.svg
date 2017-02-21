@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="298px" viewBox="0 0 283 298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)" fill-rule="nonzero">
+            <g id="star-outlined" transform="translate(141.000000, 162.000000) rotate(180.000000) translate(-141.000000, -162.000000) translate(0.000000, 27.000000)">
+                <g id="Star_outlined">
+                    <polygon id="Shape" fill="#274C78" points="281.346417 103.301813 178.901834 103.301813 140.77066 0.584241519 102.607537 103.301813 0.178929047 103.301813 83.7576063 163.615151 53.8692835 269.495849 140.77066 206.019385 227.640088 269.495849 197.783715 163.615151"></polygon>
+                    <polygon id="Shape" fill="#DE8C06" points="263.877062 108.245701 174.162549 108.245701 140.769668 18.2921208 107.348808 108.245701 17.6482844 108.245701 90.841226 161.064323 64.6669153 253.78797 140.769668 198.19928 216.844442 253.78797 190.69811 161.064323"></polygon>
+                </g>
+            </g>
+            <g id="star" fill="#274C78">
+                <g id="Star" transform="translate(-0.000000, 0.000000)">
+                    <polygon id="Shape" points="140.77066 0.584241519 178.917809 103.301813 281.346417 103.301813 197.76774 163.630432 227.656063 269.495849 140.77066 206.019385 53.9012325 269.495849 83.7735808 163.630432 0.178929047 103.301813 102.607537 103.301813"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
