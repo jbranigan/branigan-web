@@ -8,24 +8,32 @@
     <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
     <link rel="shortcut icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
     <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One|Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="branding">
-        <div class="logo-box">
-            <img class="logo" src="img/starslogo.svg" alt="Ten point star logo">
+        <div class="profile">
+            <img class="profile-pic" src="img/profile.jpg" alt="John in the mountains">
         </div>
 
         <div class="title">
             <h1 class="title-name">John Branigan</h1>
-            <h3 class="title-sub">Information Design and Development</h3>
+            <a href="https://github.com/jbranigan" class="contact fontawesome-github-alt"></a>
+            <a href="https://www.linkedin.com/in/john-branigan-34b4a720/" class="contact fontawesome-linkedin"></a>
+            <a href="mailto:john@branigan.net" class="contact fontawesome-envelope"></a>
         </div>
     </header>
 
     <section class="hero">
-        <h4 class="hero-description">Density of 311 Noise Complaints</h4>
+        <div class="hero-text">
+            <h2 class="hero-description">Information Design</h2>
+            <ul class="hero-sub">
+                <li class="hero-sub-text">[ the art and logic of crafting a compelling story from a pile of machine-readable data ]</li>
+            </ul>
+            <h2 class="hero-description">and Front-end Development</h2>
+        </div>
 
         <!-- at laptop or larger screen sizes, an interactive map will be embedded - see js/index.js -->
         <div id="hero-embed">
@@ -44,6 +52,20 @@
 
     <section class="featured">
         <h3 class="project-title">Featured Work</h3>
+
+        <p class="project-description">
+            A visualization of how map projections can distort our understanding of what the world looks like. Featured in the <a href="http://knowmore.washingtonpost.com/2014/07/28/a-dizzying-map-of-north-america-drawn-in-eight-projections-at-once/">Washington Post</a>
+        </p>
+
+        <article class="project-featured">
+
+            <a href="http://branigan.net/maps/projection-overlays/" class="project-screen-link" target="_blank">
+                <img src="img/projections-lg.png" alt="Map projections art" class="project-screen">
+            </a>
+
+        </article>
+
+        <h3 class="project-title">Work In Progress</h3>
 
         <article class="project">
             <a href="http://nicerweather.com" class="project-screen-link" target="_blank">
@@ -69,18 +91,83 @@
             </p>
         </article>
 
+        <h3 class="project-title">Azavea Applications</h3>
+
+        <p class="project-description">
+            I served these projects in the role of manager, with a hands-on approach in the UX design process and development technology decisions. I also served as the lead cartographer.
+        </p>
+
         <article class="project">
-            <a href="http://branigan.net/maps/projection-overlays/" class="project-screen-link" target="_blank">
-                <img srcset="img/projections-1x.png, img/projections-2x.png 2x" src="img/projections-2x.png" alt="Map projections art" class="project-screen">
+            <a href="https://gophillygo.org/" class="project-screen-link" target="_blank">
+                <img srcset="img/gophillygo-1x.png, img/gophillygo-2x.png 2x" src="img/gophillygo-2x.png" alt="GoPhillyGo screen shot" class="project-screen">
             </a>
 
-            <h2 class="project-name">Projection Art</h2>
+            <h2 class="project-name">GoPhillyGo</h2>
 
             <p>
-                <a href="https://github.com/jbranigan/projection-overlays" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+                <a href="https://github.com/azavea/cac-tripplanner" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
             </p>
         </article>
-    </section>
+
+        <article class="project">
+            <a href="http://visualization.phillybuildingbenchmarking.com/#/" class="project-screen-link" target="_blank">
+                <img srcset="img/mos-energy-1x.png, img/mos-energy-2x.png 2x" src="img/mos-energy-2x.png" alt="Philadelphia Building Energy Benchmarking screen shot" class="project-screen">
+            </a>
+
+            <h2 class="project-name">Building Energy</h2>
+
+            <p>
+                <a href="https://github.com/azavea/mos-energy-benchmark" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+
+        <article class="project">
+            <a href="http://museumstat.org/#/" class="project-screen-link" target="_blank">
+                <img srcset="img/museumstat-1x.png, img/museumstat-2x.png 2x" src="img/museumstat-2x.png" alt="Museumstat.org screen shot" class="project-screen">
+            </a>
+
+            <h2 class="project-name">MuseumStat</h2>
+
+            <p>
+                <a href="https://github.com/MuseumStat/imls-museum-data" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+
+        <article class="project">
+            <a href="https://www.opendataphilly.org/" class="project-screen-link" target="_blank">
+                <img srcset="img/opendataphilly-1x.png, img/opendataphilly-2x.png 2x" src="img/opendataphilly-2x.png" alt="OpenDataPhilly screen shot" class="project-screen">
+            </a>
+
+            <h2 class="project-name">OpenDataPhilly</h2>
+
+            <p>
+                <a href="https://github.com/azavea/opendataphilly-ckan" class="project-link fontawesome-github-alt" target="_blank"> View on GitHub</a>
+            </p>
+        </article>
+
+        <article class="project">
+            <img srcset="img/enrr-1x.png, img/enrr-2x.png 2x" src="img/enrr-2x.png" alt="Election results screen shot" class="project-screen">
+
+            <h2 class="project-name">Election Results</h2>
+
+            <p>
+                Private
+            </p>
+        </article>
+
+         <article class="project">
+            <a href="http://staging.homelessnessanalytics.org/" class="project-screen-link" target="_blank">
+                <img srcset="img/homelessnessanalytics-1x.png, img/homelessnessanalytics-2x.png 2x" src="img/homelessnessanalytics-2x.png" alt="OpenDataPhilly screen shot" class="project-screen">
+            </a>
+
+            <h2 class="project-name">VA Homeless</h2>
+
+            <p>
+                Private
+            </p>
+        </article>
+
+   </section>
 
     <footer>
         <div class="footer-left">
